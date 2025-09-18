@@ -453,7 +453,7 @@ display: none;
 }
 .right{
     width: 98vw;
-    height: 100vh;
+    height: 96vh;
 }
 .nav i{
     display: none;
@@ -540,4 +540,5 @@ transform: scale(105%);
     bottom: 60px;
     left: 0px;
 }
+
 }
