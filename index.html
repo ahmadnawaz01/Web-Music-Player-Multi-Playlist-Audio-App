@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container flex ">
+        <div class="left">
+            <i id="close"class="fa-solid fa-xmark"></i>
+            <div class="home p-1 rounded m-1 bg-grey">
+                <div class="logospo"><i class="fa-brands fa-spotify"></i></div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey   rounded m-1 p-1">
+                <div class="heading">
+                    <h2>Your library</h2>
+                     <i id="cl"class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                        <li>
+                            <div class="img"><img width="20px" src="music.svg" alt="">
+                                <div class="info">
+                                    <div class="songname">song name</div>
+                                    <div class="songartist">song artist</div>
+                                </div>
+                            </div>
+                            <div class="playnow"> <h6>Play Now</h6>
+                                <i class="fa-regular fa-circle-play"></i></div>
+
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/pk-en/legal/">Legal</a></div>
+                    <div><a href="https://www.spotify.com/pk-en/safetyandprivacy/">Safety & Privacy Center</a></div>
+                    <div><a href="https://www.spotify.com/pk-en/legal/privacy-policy/">Privacy Policy</a></div>
+                    <div><a href="https://www.spotify.com/pk-en/legal/cookies-policy/">Cookies</a></div>
+                    <div><a href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3">About Ads</a></div>
+                    <div><a href="https://www.spotify.com/pk-en/accessibility/">Accessibility</a></div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="right  rounded m-1 bg-grey">
+            <div class="header">
+                <div class="nav">
+                        <i id="ham"class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="navbutton">
+                    <button>Sign Up</button>
+                    <button class="login">Login</button>
+                </div>
+            </div>
+            <div class="spotify-playlist">
+                <h1>Playlists</h1>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <div class="playbutton">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="plimg.jpg" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to bosst your mood to fill your hapiness</p>
+                    </div>
+                    <div class="card">
+                        <div class="playbutton">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <img src="plimg.jpg" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to bosst your mood to fill your hapiness</p>
+                    </div>
+                </div>
+                <div class="playwrap">
+                    <div class="playbar">
+                        <div class="seekbar">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="songinfo"></div>
+                        <div class="songbuttons">
+                            <button id="pre" > <i  class="fa-solid fa-backward-step"></i></button>
+                            <button> <i id="playpause" class="fa-solid fa-play"></i></button>
+                            <button id="next"><i  class="fa-solid fa-forward-step"></i></button>
+                        </div>
+                        <div class="songtime"></div>
+                        <div class="volume"><i class="fa-solid fa-volume-high"></i><input class="rock" type="range"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

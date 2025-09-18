@@ -1,0 +1,44 @@
+[
+  {
+    "playlistname": "Alan Walker Hits",
+    "playlistdes": "Best of Alan Walker & Collaborations",
+    "playlistimage": "Alan Walker/playlist.jpg",
+    "songlist": "Alan Walker/alan.json"
+  },
+  {
+    "playlistname": "English Hits Collection",
+    "playlistdes": "Top trending From pop english",
+    "playlistimage": "English HIts/playlist.jpg",
+    "songlist": "English Hits/english.json"
+  },
+  {
+    "playlistname": "F1 Movie Hits",
+    "playlistdes": "Official tracks from F1® The Movie.",
+    "playlistimage": "F1/playlist.jpg",
+    "songlist": "F1/F1.json"
+  },
+  {
+    "playlistname": "Funks Vibes",
+    "playlistdes": "The hottest Brazilian funks tracks.",
+    "playlistimage": "Funks/f.jpg",
+    "songlist": "Funks/f.json"
+  },
+  {
+    "playlistname": "Hindi Hits Collection",
+    "playlistdes": "Top Bollywood tracks – the latest hits and classic favorites.",
+    "playlistimage": "Hindi Hits/h.jpg",
+    "songlist": "Hindi Hits/h.json"
+  },
+  {
+    "playlistname": "Punjabi Hits Collection",
+    "playlistdes": "Latest Punjabi songs – the hottest tracks of 2023–2025.",
+    "playlistimage": "punjabi Hits/img.jpg",
+    "songlist": "punjabi Hits/p.json"
+  },
+  {
+    "playlistname": "All Songs Collection",
+    "playlistdes": "All your favorite tracks in one mega playlist.",
+    "playlistimage": "master/m.jpg",
+    "songlist": "master/m.json"
+  }
+]
